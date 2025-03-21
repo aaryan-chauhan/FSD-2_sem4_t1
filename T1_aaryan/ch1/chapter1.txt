@@ -1,0 +1,36 @@
+Chapter 1 : JSON(Javascript Object Notation)
+
+JSON Syntax
+Data is represented in key value pairs 
+
+Ex. : {
+    "name":"LJU",
+    "age":30
+}
+
+OR
+
+Ex. : {
+    name:"LJU",
+    age:30
+}
+
+JSON Datatype
+>String                 : value must be in double quotes {"NAME":"AARYAN"}
+>Number                 : value must be numeric {AGE:30}
+>Object(JSON object)    : {"emp" : {"name" : "xyz" , age : 25} }
+>Array                  : {"emp1": [ "xyz" , "pqr"] }
+>Null                   : {"middlename" : null}
+>Boolean                : {"Sale" : false}
+
+Note: can't be used 
+>Function
+>Date
+>Undefined
+
+Notes:
+JSON inbuilt method :-
+>JSON.stringify()
+-object to String conversion
+>JSON.parse()
+-string to object conversion

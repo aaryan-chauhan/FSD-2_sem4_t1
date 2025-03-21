@@ -1,0 +1,38 @@
+<!-- consider the below json object and fetch values using for loop (for off loop)  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const sub={
+            "FSD":[
+                {
+                    "topic": "html",
+                    "course":"beginer",
+                    "content": ["tags","table","form"]
+                },
+                {
+                    "topic":"css",
+                    "course":"beginer",
+                    "content":["tags","table","form"]
+                }
+            ]
+        }
+        for (const i of sub.FSD) {
+            document.write(i.topic)
+            document.write("<br>")
+            document.write(i.course)
+            document.write("<br>")
+            document.write(i.content)
+            document.write("<br>")
+            document.write("<br>")
+            
+        }
+    </script>
+</body>
+</html>

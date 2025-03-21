@@ -1,0 +1,18 @@
+<!-- write one json string with date property (yyyy-mm-dd) and print date in indian std time -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        data=JSON.parse('{"name":"xyz","Age":12,"dob":"1995-09-15"}')
+        console.log(data.dob)
+        a=new Date(data.dob)
+        console.log(a);
+    </script>
+</body>
+</html>

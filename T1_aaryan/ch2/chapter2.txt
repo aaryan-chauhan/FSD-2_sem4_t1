@@ -1,0 +1,23 @@
+install nodejs, with that npm is installed 
+see versions of node and npm
+node -v
+npm -v
+npm install -g nodemon (for installing )
+
+REPL: Read Eval Print Loop
+
+underscore(_): get the last result
+
+
+NODE: Repl commands
+1. ctrl+c >terminate current command
+2. ctrl+c twice > terminate the node Repl
+3. ctrl+d > terminate the node Repl
+4. up/down keys > list of current command
+5. tab > list of current commands
+6. .editor > enables editor mode and perform task
+7. .help > list all commands
+8. .break > exit from multiline commands
+9. .clear > exit from multiline commands
+10. .save filename > ex > .save f1.js
+11. .load filename > ex > .load f1.js

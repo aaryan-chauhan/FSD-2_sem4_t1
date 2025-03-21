@@ -1,0 +1,43 @@
+<!-- Write a JSON object which contains array of 3 objects each object contains 2 properties a name and an age now sort an array values by age in decending order print name and age in terminal as per the sorted age -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const student=[
+            {
+                "name":"nas",
+                "age":25
+            },
+            {
+                "name":"abc",
+                "age":30
+            },
+            {
+                "name":"xyz",
+                "age":33
+            }
+        ]
+        for(i=0;i<student.length;i++){
+            for(j=0;j<student.length;j++){
+                if(student[i].age>student[j].age){
+                    var temp
+                    temp=student[j]
+                    student[j]=student[i]
+                    student[i]=temp
+                }
+            }
+        }
+        for(i=0;i<student.length;i++){
+            console.log(student[i].name,":",student[i].age);
+        }
+        
+    </script>
+</body>
+</html>
